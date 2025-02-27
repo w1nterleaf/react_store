@@ -1,0 +1,45 @@
+.sidebar {
+    width: 20%;
+    border-right: 1px solid #d4d6e0;
+    height: 100vh;
+    padding: 30px 30px  50px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    position: sticky;
+    top: 0;
+    &__user {
+        display: flex;
+        flex-direction: column;
+        &_img {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+        }
+        &_name {
+            font-weight: 700;
+            font-size: 20px;
+            color: #000;
+            margin-top: 21px;
+            margin-bottom: 7px;
+        }
+        &_email {
+            font-weight: 400;
+            font-size: 14px;
+            color: #9ea1b1;
+        }
+    }
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        &_link {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-weight: 400;
+            font-size: 16px;
+            color: #000;
+        }
+    }
+}
