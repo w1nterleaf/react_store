@@ -6,7 +6,7 @@ const Cart:FC = () => {
   return (
     <>
       <MainLayout>
-        <h1>Cart</h1>
+        <h1>Cart will be added soon</h1>
       </MainLayout>
     </>
   )
